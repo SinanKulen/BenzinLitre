@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		1B14BC3B274ED37800CE1749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B14BC3A274ED37800CE1749 /* AppDelegate.swift */; };
 		1B14BC3D274ED37800CE1749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B14BC3C274ED37800CE1749 /* SceneDelegate.swift */; };
-		1B14BC3F274ED37800CE1749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B14BC3E274ED37800CE1749 /* ViewController.swift */; };
 		1B14BC42274ED37800CE1749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B14BC40274ED37800CE1749 /* Main.storyboard */; };
 		1B14BC44274ED39100CE1749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B14BC43274ED39100CE1749 /* Assets.xcassets */; };
 		1B14BC47274ED39100CE1749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B14BC45274ED39100CE1749 /* LaunchScreen.storyboard */; };
+		1BA189492750BF05000F5D58 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA189482750BF05000F5D58 /* TableViewCell.swift */; };
+		1BA1894B27514E51000F5D58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1894A27514E51000F5D58 /* ViewController.swift */; };
+		1BA189772754D7D8000F5D58 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 1BA189762754D7D8000F5D58 /* SwiftyJSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B14BC37274ED37800CE1749 /* BenzinLitre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BenzinLitre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B14BC3A274ED37800CE1749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B14BC3C274ED37800CE1749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1B14BC3E274ED37800CE1749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B14BC41274ED37800CE1749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B14BC43274ED39100CE1749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B14BC46274ED39100CE1749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B14BC48274ED39100CE1749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BA189482750BF05000F5D58 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1BA1894A27514E51000F5D58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BA772FEB7FD9B53C4E132E3 /* Pods-BenzinLitre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenzinLitre.debug.xcconfig"; path = "Target Support Files/Pods-BenzinLitre/Pods-BenzinLitre.debug.xcconfig"; sourceTree = "<group>"; };
+		909E651020B4C66ACC602A7C /* Pods-BenzinLitre.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenzinLitre.release.xcconfig"; path = "Target Support Files/Pods-BenzinLitre/Pods-BenzinLitre.release.xcconfig"; sourceTree = "<group>"; };
+		92C5874D5EC3FEC15B956CAD /* Pods_BenzinLitre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BenzinLitre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA189772754D7D8000F5D58 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				1B14BC39274ED37800CE1749 /* BenzinLitre */,
 				1B14BC38274ED37800CE1749 /* Products */,
+				FD63E9EFBBF5E62EC98FFF94 /* Pods */,
+				C353C0A0880DC377DB38CCE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +67,31 @@
 			children = (
 				1B14BC3A274ED37800CE1749 /* AppDelegate.swift */,
 				1B14BC3C274ED37800CE1749 /* SceneDelegate.swift */,
-				1B14BC3E274ED37800CE1749 /* ViewController.swift */,
+				1BA1894A27514E51000F5D58 /* ViewController.swift */,
+				1BA189482750BF05000F5D58 /* TableViewCell.swift */,
 				1B14BC40274ED37800CE1749 /* Main.storyboard */,
 				1B14BC43274ED39100CE1749 /* Assets.xcassets */,
 				1B14BC45274ED39100CE1749 /* LaunchScreen.storyboard */,
 				1B14BC48274ED39100CE1749 /* Info.plist */,
 			);
 			path = BenzinLitre;
+			sourceTree = "<group>";
+		};
+		C353C0A0880DC377DB38CCE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92C5874D5EC3FEC15B956CAD /* Pods_BenzinLitre.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD63E9EFBBF5E62EC98FFF94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BA772FEB7FD9B53C4E132E3 /* Pods-BenzinLitre.debug.xcconfig */,
+				909E651020B4C66ACC602A7C /* Pods-BenzinLitre.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +101,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B14BC4B274ED39100CE1749 /* Build configuration list for PBXNativeTarget "BenzinLitre" */;
 			buildPhases = (
+				9DABCFBEDFCED83859C7AC89 /* [CP] Check Pods Manifest.lock */,
 				1B14BC33274ED37800CE1749 /* Sources */,
 				1B14BC34274ED37800CE1749 /* Frameworks */,
 				1B14BC35274ED37800CE1749 /* Resources */,
+				D5DA90E856F584C0548FF6D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BenzinLitre;
+			packageProductDependencies = (
+				1BA189762754D7D8000F5D58 /* SwiftyJSON */,
+			);
 			productName = BenzinLitre;
 			productReference = 1B14BC37274ED37800CE1749 /* BenzinLitre.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +143,9 @@
 				Base,
 			);
 			mainGroup = 1B14BC2E274ED37700CE1749;
+			packageReferences = (
+				1BA189752754D7D8000F5D58 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 1B14BC38274ED37800CE1749 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,13 +168,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9DABCFBEDFCED83859C7AC89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BenzinLitre-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5DA90E856F584C0548FF6D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BenzinLitre/Pods-BenzinLitre-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BenzinLitre/Pods-BenzinLitre-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BenzinLitre/Pods-BenzinLitre-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B14BC33274ED37800CE1749 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B14BC3F274ED37800CE1749 /* ViewController.swift in Sources */,
+				1BA1894B27514E51000F5D58 /* ViewController.swift in Sources */,
 				1B14BC3B274ED37800CE1749 /* AppDelegate.swift in Sources */,
+				1BA189492750BF05000F5D58 /* TableViewCell.swift in Sources */,
 				1B14BC3D274ED37800CE1749 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +362,7 @@
 		};
 		1B14BC4C274ED39100CE1749 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA772FEB7FD9B53C4E132E3 /* Pods-BenzinLitre.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +391,7 @@
 		};
 		1B14BC4D274ED39100CE1749 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909E651020B4C66ACC602A7C /* Pods-BenzinLitre.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,6 +440,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1BA189752754D7D8000F5D58 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1BA189762754D7D8000F5D58 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BA189752754D7D8000F5D58 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1B14BC2F274ED37700CE1749 /* Project object */;
 }
